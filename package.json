@@ -28,6 +28,8 @@
     "@angular/cli": "~16.1.0",
     "@angular/compiler-cli": "~16.1.0",
     "@angular/language-service": "~16.1.0",
+    "@cypress/code-coverage": "^3.10.8",
+    "@jsdevtools/coverage-istanbul-loader": "^3.0.5",
     "@nx/cypress": "16.4.2",
     "@nx/eslint-plugin": "16.4.2",
     "@nx/jest": "16.4.2",
