@@ -1,9 +1,11 @@
 module.exports = (webpackConfig) => {
-  webpackConfig,
-  {
+  return {
+    ...webpackConfig,
+
     module: {
       rules: [
         // Istanbul Instrumentation rule
+        ...webpackConfig.module.rules,
         {
           test: /\.(js|ts)$/,
           loader: '@jsdevtools/coverage-istanbul-loader',
